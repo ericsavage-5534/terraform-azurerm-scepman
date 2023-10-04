@@ -12,15 +12,13 @@ terraform {
   required_version = "~> 1.5.4"
 }
 
-# Provider configuration
-
 provider "azurerm" {
   features {}
 
-  appId: = "3d0e3a35-f83b-405d-baff-6abb22e9040b"
-  "displayName": "azure-cli-2023-08-09-01-06-37"
-  "password": "g-T8Q~5Dt-ydAWUhEIh04I133erZvPsY1KlG-cu7"
-  "tenant": "c38aa44d-4165-427e-94a7-62d15e922c35"
+  subscription_id   = "03990e50-28fb-4b6b-b33f-ca562c56072"
+  tenant_id         = "1b212e38-787d-48cb-83bb-5e4302f225e4"
+  client_id         = "5bee6409-392f-46f7-a67c-d73748c1bb6b"
+  client_secret     = "0dK8Q~vg2zweECQmWdshJFvBKZfYOM2T258ZBb.N"
 }
 
 # Resources
