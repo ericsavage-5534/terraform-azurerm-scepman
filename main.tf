@@ -17,7 +17,7 @@ terraform {
 provider "azurerm" {
   features {}
 
-  "appId": "3d0e3a35-f83b-405d-baff-6abb22e9040b"
+  appId: = "3d0e3a35-f83b-405d-baff-6abb22e9040b"
   "displayName": "azure-cli-2023-08-09-01-06-37"
   "password": "g-T8Q~5Dt-ydAWUhEIh04I133erZvPsY1KlG-cu7"
   "tenant": "c38aa44d-4165-427e-94a7-62d15e922c35"
