@@ -32,7 +32,7 @@ resource "azurerm_resource_group" "rg" {
 module "scepman" {
   source  = "glueckkanja-gab/scepman/azurerm"
   #version = "0.2.2"
-{
+}
   # insert the 8 required variables here
 
 
