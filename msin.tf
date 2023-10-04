@@ -51,7 +51,7 @@ module "scepman" {
   app_settings_primary            = var.app_settings_primary
   app_settings_certificate_master = var.app_settings_certificate_master
 
-  enable_application_insights = var.enable_application_insights
+  #enable_application_insights = var.enable_application_insights
 
   tags = var.tags
 }
